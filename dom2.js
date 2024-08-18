@@ -45,7 +45,7 @@ const pintarCarrito = () => {
     for (let find in CarObject) {
         
         const li = document.createElement("li")
-        li.className = "list"
+        li.className = "listt"
     
         const product = document.createElement("span")
         product.className = "product"
