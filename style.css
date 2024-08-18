@@ -94,8 +94,24 @@ body {
     }
 
     .listt {
-        width: 100%;
+        width: 90%;
         justify-content: space-between;
     }
 
 }
+
+@media (min-width: 1399px) {
+
+    .listt{
+        width: 70%;
+    }
+}
+
+
+@media (min-width: 2020px) {
+
+    .listt{
+        width: 40%;
+    }
+}
+
