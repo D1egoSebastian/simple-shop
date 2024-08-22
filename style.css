@@ -25,7 +25,7 @@ body {
     background-color: white;
     margin: 0 auto;
     width: 50%;
-    height: 100px;
+    height: 120px;
     text-align: center;
     border-radius: 10px;
     padding: 20px;
@@ -34,7 +34,7 @@ body {
 }
 
 .title{
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 20px;
     margin-top: 10px;
 }
@@ -54,10 +54,10 @@ body {
 }
 
 
-.listt{
+.fix{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: auto;
     background-color: white;
     list-style: none;
@@ -65,8 +65,37 @@ body {
     border-radius: 10px;
     width: 50%;
     margin-top: 10px;
-    
 }
+
+
+
+.add{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    border: solid 2px green;
+    color: green;
+    margin-right: 10px;
+}
+
+.add:hover{
+    background-color: green;
+    color: white;
+}
+
+.rest{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    border: solid 2px red;
+    color: red;
+}
+
+.rest:hover{
+    background-color: red;
+    color: white;
+}
+
 
 .list{
     display: flex;
@@ -80,7 +109,27 @@ body {
     padding: 7px;
     margin-left: 2px;
     border-radius: 10px;
+}
 
+
+
+.total-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 20px auto;
+}
+
+.finish{
+    border: none;
+    border: solid 2px rgb(2, 132, 255);
+    border-radius: 10px;
+    color: rgb(2, 132, 255);
 }
 
 
